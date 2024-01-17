@@ -1,0 +1,37 @@
+======================================================================================================================
+# =======================INTERPRETATION DES DONNEES DE LA BASE DE DONNEE     ===========================================
+# ======================================================================================================================
+# entete du csv OU DB: math,physique,informatique,chimie,philosophie,svt,hist,geo,ecm,anglais,sport,formation
+# 0=>mathematicien
+# 1=>physicien
+# 2=>informaticien
+# 3=>chimiste
+# ======================================================================================================================
+# ======================================================================================================================
+
+# ======================================================================================================================
+# =======================PETITE DOCUMENTATION SUR LE DOCUMENT ECHANTILLON.CSV===========================================
+# ======================================================================================================================
+# voila, dans ce document nous avons 30 profils par specialites classé selon le code ci-dessus
+# etant donné que pour une premiere vu nous avons utilisé un dataset de 11 elements ou bien que chaque vecteur est constitué de 11 elements decrit ci dessus, nous avons donc attribué les classes par total de chaque vecteur ainsi , la classe mathematique contient les vecteurs ayant des notes comprises dans l intervale [20-16]->[220-176], classe informatique:[18-14]->[198-154], classe physique: [15-12]->[165-132], classe chimie:[13-10]->[143-110] remarquons que les intervalles de droite correspondent au valeurs des intervalles de gauches multuplié par 11 qui est le nombre d attributs total pris en compte
+# ======================================================================================================================
+# ======================================================================================================================
+
+# ======================================================================================================================
+# ======INTERPRETATION DES DONNEES DE LA table echantillonGeneralIndividuel  ===========================================
+# ======================================================================================================================
+# entete des csv particulier :id_echantillonGeneral,math,ph,info,chim,philo,svt,hist,geo,ecm,angl,sport,disciplinePlusApte,taille,nbrInscrit,nbrReuissit,reuissit
+# 0=>football
+# 1=>basket
+# 2=>saut en hauteur
+# 3=>handBall
+# 4=>VolleyBall
+# pour l'attribut reuissit c'est 0 pour non et 1 pour oui
+# ======================================================================================================================
+# ======================================================================================================================
+# LE CODE LES PLUS COMPLET EST CONTENU DANS LE FICHIER MAIN.PY ET LE FICHIER LE PLUS STRUCTURÉ EST LE FICHIER ECHANTILLON.PY
+# ======================================================================================================================
+# le fichier 3_temporaire.py est un fichier test en console
+======================================================================================================================
+
+
